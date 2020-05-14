@@ -32,7 +32,7 @@ hr {
 }
 /* First Row */
 .first-row {
-  padding: 2% 2%;
+  padding: 1%;
   color: #fff;
   background-color: Black;
 }
@@ -59,13 +59,18 @@ hr {
 
 /* Intro Section */
 /* Language Section */
-.language-table {
+.table {
+  border-collapse: collapse;
+  width: 105%;
 }
-
+.td {
+  padding-left: : 0px;
+  padding-right: 0px;
+}
 /* Reference Section */
 /* Second Row */
 .second-row {
-  padding: 2% 2%;
+  padding: 1%;
 }
 
 ul {
@@ -95,7 +100,7 @@ h5 {
 }
 
 .third-row {
-  padding: 2% 2%;
+  padding: 1%;
 }
 
 /* Making Space Star */
