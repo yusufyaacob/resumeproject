@@ -3,27 +3,35 @@ body {
   background-color: #f0f0f0;
 }
 
+td,th,p,li {
+  font-size: 13px;
+}
+
+/* Reduce Table Padding */
+.mytable>tbody>tr>td, .mytable>tbody>tr>th, .mytable>tfoot>tr>td, .mytable>tfoot>tr>th, .mytable>thead>tr>td, .mytable>thead>tr>th {
+    padding: 0.25rem;
+}
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-family: "Oxygen"
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Abel"
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Oxygen";
 }
 
 hr {
   border-style: dotted none none;
   border-color: #888888;
-  border-width: 5px;
-  width: 20%;
+  border-width: 3px;
+  width: 10%;
 }
 
 /* CLASS SELECTOR */
@@ -32,13 +40,13 @@ hr {
 }
 /* First Row */
 .first-row {
-  padding: 1%;
+  padding: 1rem;
   color: #fff;
   background-color: Black;
 }
 
 .profile, .contactinfo, .intro, .languages, .reference {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 /* Profile Section */
@@ -47,8 +55,7 @@ hr {
 }
 
 .YusufProfile {
-  width: 150px;
-  border-radius: 10%;
+  width: 130px;
   margin-bottom: 20px;
 }
 
@@ -61,12 +68,9 @@ hr {
 /* Language Section */
 .table {
   border-collapse: collapse;
-  width: 105%;
+  width: 100%;
 }
-.td {
-  padding-left: : 0px;
-  padding-right: 0px;
-}
+
 /* Reference Section */
 /* Second Row */
 .second-row {
@@ -79,24 +83,24 @@ ul {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Oxygen";
   line-height: 1.5;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 10px;
   font-family: "Abel";
   font-weight: lighter;
 }
 
 .whiteline {
   border-color: #888888;
-  border-width: 3px;
+  border-width: 2px;
   width: 70%;
   border-style: solid none none;
   text-align: center;
-  margin: 5% 0 5% 0;
+  margin: 2% 0;
 }
 
 .third-row {
